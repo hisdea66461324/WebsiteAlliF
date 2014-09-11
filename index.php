@@ -88,18 +88,21 @@ body {
 	height:100%;
 	text-align:center;
 	width:device-width;
+	height:device-height;
 }
 
 #middleSection {
 	background-color: #e04945;
-	padding:0 0 0 0;
-	margin: 0 0 0 0;
+	/*padding:0 0 0 0;
+	margin: 0 0 0 0;*/
+	height:85%;
 	text-align:center;
 }
 
 #bottomSection {
 	background-color: #f3f5f4;	
 	text-align:center;
+	height:15%;
 }
 
 a:link {text-decoration: none; color: #837a7a; font-size:0.8em;}
@@ -110,7 +113,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 </head>
 <body>
 <div id="middleSection">
-	<img src="/images/m_mainContent.gif" style="max-width:95%; padding-top:170px; padding-bottom:170px;"/>
+	<img src="/images/m_mainContent.gif" style="max-width:95%; padding-top:30%; padding-bottom:30%;"/>
 </div>
 <div id="bottomSection">
 	<table cellpadding=0 cellspacing=0 border=0 style="width:95%;" align="center">
