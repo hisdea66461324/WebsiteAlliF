@@ -1,4 +1,13 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+header("Pragma: no-cache");   
+header("Cache-Control: no-cache,must-revalidate");  
+$user_agent = strtolower ($_SERVER['HTTP_USER_AGENT']); 
+?>
 <!DOCTYPE html>
+<?
+if (!preg_match ("/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent ) ) {
+?>
 <html>
 <head>
 <title>ALLif</title>
@@ -13,7 +22,6 @@ body {
 	height:100%;
 	text-align:center;
 }
-
 
 #middleSection {
 	background-color: #e04945;
@@ -31,8 +39,6 @@ a:link {text-decoration: none; color: #837a7a; font-size:0.8em;}
 a:visited {text-decoration: none; color: #837a7a; font-size:0.8em;}
 a:active {text-decoration: none; color: #837a7a; font-size:0.8em;}
 a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
-
-
 </style>
 </head>
 <body>
@@ -64,9 +70,73 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 </div>	
 </body>
 </html>
+<?
+}
+else {
+?>	
+<html>
+<head>
+<title>ALLif</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+<style>
+body {
+	background-color: #f3f5f4;
+	margin:0;
+	padding: 0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	width:device-width;
+}
+
+#middleSection {
+	background-color: #e04945;
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+	text-align:center;
+}
+
+#bottomSection {
+	background-color: #f3f5f4;	
+	text-align:center;
+}
+
+a:link {text-decoration: none; color: #837a7a; font-size:0.8em;}
+a:visited {text-decoration: none; color: #837a7a; font-size:0.8em;}
+a:active {text-decoration: none; color: #837a7a; font-size:0.8em;}
+a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
+</style>
+</head>
+<body>
+<div id="middleSection">
+	<img src="/images/m_mainContent.gif" style="max-width:80%; padding-top:100px; padding-bottom:100px;"/>
+</div>	
+<div style="max-width:100%;">
+	<table cellpadding=0 cellspacing=0 border=0 width=100%>
+		<tr><td height=7 bgcolor="#c9caca"></td></tr>
+	</table>
+</div>
 	
+</div>
+<div id="bottomSection">
+	<table cellpadding=0 cellspacing=0 border=0 style="width:80%;" align="center">
+		<tr>
+			<td width=86%><img src="/images/bottom001.gif" style="width:100%;"></td>
+			<td width=14%><a href="mailto:contact@allif.co.kr"><img src="/images/bottom002.gif" style="width:100%;" border=0></a></td>
+		</tr>
+		<tr>
+			<td width=86%><img src="/images/bottom003.gif" style="width:100%;"></td>
+			<td width=14%><img src="/images/bottom004.gif" style="width:100%;"></td>
+		</tr>
+	</table>
+</div>	
+</body>
+</html>
 
-
+<?
+}
+?>	
 
 
 
