@@ -111,7 +111,6 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 <body>
 <div id="middleSection">
 	<img src="/images/m_mainContent.gif" style="max-width:95%; padding-top:170px; padding-bottom:170px;"/>
-</div>	
 </div>
 <div id="bottomSection">
 	<table cellpadding=0 cellspacing=0 border=0 style="width:95%;" align="center">
