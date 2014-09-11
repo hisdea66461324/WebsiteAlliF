@@ -51,7 +51,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 			<td width=200 align="right">
 				<table cellpadding=0 cellspacing=0 border=0 height=50>
 					<tr>
-						<td valign="top"><a href="mailto:contact@allif.co.kr">Contact Us</a></td>
+						<td valign="top"><a href="mailto:contact@allif.co.kr"><img src="/images/btn_contactus.gif"></a></td>
 						<td width=20>&nbsp;</td>
 					</tr>
 				</table>
