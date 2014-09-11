@@ -110,17 +110,12 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 </head>
 <body>
 <div id="middleSection">
-	<img src="/images/m_mainContent.gif" style="max-width:80%; padding-top:100px; padding-bottom:100px;"/>
+	<img src="/images/m_mainContent.gif" style="max-width:95%; padding-top:170px; padding-bottom:170px;"/>
 </div>	
-<div style="max-width:100%;">
-	<table cellpadding=0 cellspacing=0 border=0 width=100%>
-		<tr><td height=7 bgcolor="#c9caca"></td></tr>
-	</table>
-</div>
-	
+
 </div>
 <div id="bottomSection">
-	<table cellpadding=0 cellspacing=0 border=0 style="width:80%;" align="center">
+	<table cellpadding=0 cellspacing=0 border=0 style="width:95%;" align="center">
 		<tr>
 			<td width=86%><img src="/images/bottom001.gif" style="width:100%;"></td>
 			<td width=14%><a href="mailto:contact@allif.co.kr"><img src="/images/bottom002.gif" style="width:100%;" border=0></a></td>
