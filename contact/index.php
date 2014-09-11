@@ -6,8 +6,6 @@ header("Cache-Control: no-cache,must-revalidate");
 <!DOCTYPE html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/themes/Hisdea.min.css" />
-<link rel="stylesheet" href="/css/themes/jquery.mobile.icons.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
@@ -71,20 +69,8 @@ body {
 		color:#FFF;
 		font-size:20px;
 		font-weight:normal;
-		
-<?php
-	$user_agent = strtolower ($_SERVER['HTTP_USER_AGENT']); 
-	if (!preg_match ( "/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent ) ) {
-?>		
+	
 		padding-left:20%;
-<?
-	}
-	else{
-?>
-	padding-left:10px;
-<?
-	}
-?>
 
 		padding-top:40px;
 }
@@ -215,21 +201,10 @@ input#checkCSInfo {
 
 div #pcWebContent {
 	background-color:#ffffff;
-<?php
-	$user_agent = strtolower ($_SERVER['HTTP_USER_AGENT']); 
-	if (!preg_match ( "/phone|iphone|itouch|ipod|symbian|android|htc_|htc-|palmos|blackberry|opera mini|iemobile|windows ce|nokia|fennec|hiptop|kindle|mot |mot-|webos\/|samsung|sonyericsson|^sie-|nintendo/", $user_agent ) ) {
-?>		
+		
 	margin-left:20%;
 	margin-right:20%;
-<?
-	}
-	else{
-?>
-	margin-left:10px;
-	margin-right:10px;
-<?
-	}
-?>	
+
 }
 .ui-content {
     border-width: 0;
