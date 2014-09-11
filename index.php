@@ -43,7 +43,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 	<table cellpadding="0" cellspacing="0" border="0" width="1113" align=center>
 		<tr>
 			<td>
-				<img src="/images/bottom_left.jpg" id="bottomImg1"/>
+				<img src="/images/bottom_left.gif" id="bottomImg1"/>
 			</td>
 			<td width=300>
 				&nbsp;
