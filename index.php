@@ -16,7 +16,7 @@ body {
 
 
 #middleSection {
-	background-color: #dd3430;
+	background-color: #e04945;
 	padding:0 0 0 0;
 	margin: 0 0 0 0;
 	text-align:center;
@@ -27,6 +27,10 @@ body {
 	text-align:center;
 }
 
+a:link {text-decoration: none; color: #837a7a; font-size:0.8em;}
+a:visited {text-decoration: none; color: #837a7a; font-size:0.8em;}
+a:active {text-decoration: none; color: #837a7a; font-size:0.8em;}
+a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 
 
 </style>
@@ -41,8 +45,16 @@ body {
 			<td>
 				<img src="/images/bottom_left.jpg" id="bottomImg1"/>
 			</td>
-			<td width=500>&nbsp;
-			<a href="/contact/index.php"><input type="button" value="contact"></a>
+			<td width=300>
+				&nbsp;
+			</td>
+			<td width=200 align="right">
+				<table cellpadding=0 cellspacing=0 border=0 height=50>
+					<tr>
+						<td valign="top"><a href="mailto:contact@allif.co.kr">Contact Us</a></td>
+						<td width=20>&nbsp;</td>
+					</tr>
+				</table>
 			</td>
 			<td>
 				<img src="/images/bottom_right.jpg" id="bottomImg2"/>
