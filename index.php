@@ -93,34 +93,17 @@ body {
 
 #middleSection {
 	background-color: #e04945;
-	padding:0 0 0 0;
-	margin: 0 0 0 0;
+	/*padding:0 0 0 0;
+	margin: 0 0 0 0;*/
 	height:85%;
-
-	
 	text-align:center;
 }
-
-
 
 #bottomSection {
 	background-color: #f3f5f4;	
 	text-align:center;
 	height:15%;
-	position: fixed;
-	bottom:1%;
 }
-
-#bottomSection2 {
-	position: fixed;
-	background-color: #c9caca;	
-	text-align:center;
-	height: 1.5%;
-	width:100%;
-	/*border:solid #000000 2px;*/
-	bottom:18%;
-}
-
 
 a:link {text-decoration: none; color: #837a7a; font-size:0.8em;}
 a:visited {text-decoration: none; color: #837a7a; font-size:0.8em;}
@@ -130,20 +113,9 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 </head>
 <body>
 <div id="middleSection">
-	<img id="mainImg" src="/images/m_mainContent.gif" style="max-width:95%; padding-top:28%; padding-bottom:28%;"/>
+	<img src="/images/m_mainContent.gif" style="max-width:95%; padding-top:30%; padding-bottom:30%;"/>
 </div>
-
-<!--
-<div id="bottomSection2">&nbsp;</div>
--->
-
-
 <div id="bottomSection">
-	<!--
-	<table cellpadding=0 cellspacing=0 width=100% border=0> 
-		<tr><td bgcolor="#c9caca" width=100%><img src="/images/bottomLine.gif" style="width:100%;" border=0></td></tr>
-	</table>
-		-->
 	<table cellpadding=0 cellspacing=0 border=0 style="width:95%;" align="center">
 		<tr>
 			<td width=86%><img src="/images/bottom001.gif" style="width:100%;"></td>
