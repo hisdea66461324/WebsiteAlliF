@@ -150,7 +150,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 	<table cellpadding=0 cellspacing=0 border=0 style="width:95%;" align="center">
 		<tr>
 			<td width=86%><img src="/images/bottom001.gif" style="width:100%;"></td>
-			<td width=14%><a href="mailto:contact@allif.co.kr"><img src="/images/bottom002.gif" style="width:100%;border-style: none;" border=0></a></td>
+			<td width=14%><a href="mailto:contact@allif.co.kr" rel="external"><img src="/images/bottom002.gif" style="width:100%;border-style: none;" border=0></a></td>
 		</tr>
 		<tr>
 			<td width=86%><img src="/images/bottom003.gif" style="width:100%;"></td>
