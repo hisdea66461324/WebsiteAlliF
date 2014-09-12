@@ -57,7 +57,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 			<td width=200 align="right">
 				<table cellpadding=0 cellspacing=0 border=0 height=50>
 					<tr>
-						<td valign="top"><a href="mailto:contact@allif.co.kr"><img src="/images/btn_contactus.gif"></a></td>
+						<td valign="top"><a href="mailto:contact@allif.co.kr"><img src="/images/btn_contactus.gif" style="border-style: none;" border=0></a></td>
 						<td width=20>&nbsp;</td>
 					</tr>
 				</table>
@@ -122,6 +122,9 @@ body {
 }
 
 
+
+style="border-style: none"
+
 a:link {text-decoration: none; color: #837a7a; font-size:0.8em;}
 a:visited {text-decoration: none; color: #837a7a; font-size:0.8em;}
 a:active {text-decoration: none; color: #837a7a; font-size:0.8em;}
@@ -130,7 +133,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 </head>
 <body>
 <div id="middleSection">
-	<img id="mainImg" src="/images/m_mainContent.gif" style="max-width:95%; padding-top:28%; padding-bottom:28%;"/>
+	<img id="mainImg" src="/images/m_mainContent.gif" style="max-width:95%; padding-top:28%; padding-bottom:28%; border-style: none;"/>
 </div>
 
 <!--
@@ -147,7 +150,7 @@ a:hover {text-decoration: underline; color: #837a7a; font-size:0.8em;}
 	<table cellpadding=0 cellspacing=0 border=0 style="width:95%;" align="center">
 		<tr>
 			<td width=86%><img src="/images/bottom001.gif" style="width:100%;"></td>
-			<td width=14%><a href="mailto:contact@allif.co.kr"><img src="/images/bottom002.gif" style="width:100%;" border=0></a></td>
+			<td width=14%><a href="mailto:contact@allif.co.kr"><img src="/images/bottom002.gif" style="width:100%;border-style: none;" border=0></a></td>
 		</tr>
 		<tr>
 			<td width=86%><img src="/images/bottom003.gif" style="width:100%;"></td>
